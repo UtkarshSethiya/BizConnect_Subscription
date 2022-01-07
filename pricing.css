@@ -33,12 +33,12 @@
         padding-right: 30px; 
     }
     .span:hover{
-        background-color:rgba(93,118,139,255); 
+        background-color:rgba(85,139,201,255); 
         color: white !important;
         cursor: pointer;
     }
     .spanlast:hover{
-        background-color: rgba(0,204,136,255);
+        background-color: rgba(245,135,50,255);
         color: white !important;
         cursor: pointer;
     }
@@ -59,14 +59,43 @@
     font-weight: 700;
 }
 
+.bi-check{
+    font-size: 35px !important;
+    
+}
+.bi-x-lg{
+    font-size: 20px !important;
+    font-weight: 800 !important;
+}
+.bi-cup-straw{
+    font-size: 30px !important;
+    color: orangered; 
+}
 
 .cost_section{
     background-color: rgb(231, 243, 253);
 }
 
 
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .responsive{
+        padding-top: 24px;
+    }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px){
+    .span{
+        font-size: 12px;
+    }
+    .spanlast{
+        font-size: 12px;
+    }
+}
+
+
+
     @media screen and (max-width: 770px){
-        .hide{
-            display: none;
+        .no_of_sing{
+            font-size: 8px;
         }
     }
+
