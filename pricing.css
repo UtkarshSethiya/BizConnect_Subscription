@@ -76,6 +76,25 @@
     background-color: rgb(231, 243, 253);
 }
 
+#i:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 992px){
+    .heading{
+        font-size: 12px;
+        padding:8px;
+        text-align: center;
+        font-weight: 900 ;
+    }
+}
+@media screen and (min-width: 993px) and (max-width:1600px){
+    .heading{
+        display: none;
+    }
+}
+
 
 @media screen and (min-width: 1200px) and (max-width: 1400px){
     .responsive{
@@ -97,5 +116,10 @@
         .no_of_sing{
             font-size: 8px;
         }
+        .bi-check{
+            font-size: 15px !important;
+        }
     }
 
+   
+    
