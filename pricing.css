@@ -76,8 +76,11 @@
     background-color: rgb(231, 243, 253);
 }
 
-#i:hover{
-    cursor: pointer;
+.coffe{
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    
 }
 
 
@@ -88,8 +91,16 @@
         text-align: center;
         font-weight: 900 ;
     }
+    .coffe{
+        border: 2px soild black;
+    }
+    .pricerow{
+        display: none;
+       
+    }
+    
 }
-@media screen and (min-width: 993px) and (max-width:1600px){
+@media screen and (min-width: 993px) and (max-width:4000px){
     .heading{
         display: none;
     }
@@ -115,6 +126,7 @@
     @media screen and (max-width: 770px){
         .no_of_sing{
             font-size: 8px;
+            font-weight: 700;
         }
         .bi-check{
             font-size: 15px !important;
